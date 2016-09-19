@@ -10,7 +10,7 @@ public class GameController : MonoBehaviour {
     private GameObject speech;
     private GameObject speech_target;
     private float time;
-
+// tittidii
 
 	// Use this for initialization
 	void Start ()
