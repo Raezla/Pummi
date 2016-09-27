@@ -17,6 +17,7 @@ public class Andrei : NPC
         page4 = new DialogPage();
         page5 = new DialogPage();
         page5 = new DialogPage();
+        page6 = new DialogPage();
 
         page1.SetText("Jahashh... Mikässhh miässh she shinä olethh?");
         page1.SetReply(0, "Pate vaan, tarvin rahaa", page2);
@@ -34,11 +35,11 @@ public class Andrei : NPC
         page4.SetLast();
 
 // Andrei antaa 20e:
-        page6.SetText("...ensin puukottaa liikekumppanit selkään, vaikka monenmoista jeesiä hänelle tarjosin ja koulutin kuule sen pikkuvesselistä alalle, oli mulle kuin oma poika.. Ja vaimokin saamari läx sen matkaan ja koirakin perkele karkasi… Kuulee… Sinä.. Pate? Sinä oot kuule hyvä jätkä, Pate! Ota kuule tästä, saat kakskymppiä!");
-        page6.SetLast();
+        page5.SetText("...ensin puukottaa liikekumppanit selkään, vaikka monenmoista jeesiä hänelle tarjosin ja koulutin kuule sen pikkuvesselistä alalle, oli mulle kuin oma poika.. Ja vaimokin saamari läx sen matkaan ja koirakin perkele karkasi… Kuulee… Sinä.. Pate? Sinä oot kuule hyvä jätkä, Pate! Ota kuule tästä, saat kakskymppiä!");
+        page5.SetLast();
 
 // Andrei ryöstää:
-        page6.SetText("JUMANSVIIDU MIKÄ MIELISTELIJÄ! RAHAT TÄNNE");
+        page6.SetText("Älä.. älä.. älä saamarin pummi yritä siinä nuoleskella ja neuvoa… Minä kuule saatanan perkele sulle näytän!! RAHAT TÄNNE!");
         page6.SetLast();
 
         AdvanceDialog(page1);
